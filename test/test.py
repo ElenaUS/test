@@ -9,6 +9,7 @@ def test_test(app):
 
 
 def test_test_empty(app):
+    #
     app.click_mypage_left()
     app.menu__top()
     app.group.add_text(Text(text=" "))
