@@ -7,7 +7,6 @@ class Interes:
         self.app = app
 
     def add_text(self, text):
-        # 1
         self.app.driver.find_element_by_id("pedit_interests_interests").click()
         self.app.driver.find_element_by_id("pedit_interests_interests").send_keys(text.text)
         self.app.driver.find_element_by_id("page_body").click()

@@ -3,7 +3,6 @@ class Login:
         self.app = app
 
     def login_page(self, username, password):
-        #
         self.app.open_page_vk()
         self.app.driver.find_element_by_id("index_email").click()
         self.app.driver.find_element_by_id("index_email").send_keys(username)
